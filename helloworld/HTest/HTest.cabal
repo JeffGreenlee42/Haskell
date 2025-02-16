@@ -1,0 +1,30 @@
+name:                HTest
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/JeffGreenlee42/HTest#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Jeff Greenlee
+maintainer:          banjo1@gmail.com
+copyright:           2022 Jeff Greenlee
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+                     CHANGELOG.md
+
+executable HTest
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+  ghc-options:         -Wall
+                       -Wcompat
+                       -Widentities
+                       -Wincomplete-record-updates
+                       -Wincomplete-uni-patterns
+                       -Wmissing-export-lists
+                       -Wmissing-home-modules
+                       -Wpartial-fields
+                       -Wredundant-constraints

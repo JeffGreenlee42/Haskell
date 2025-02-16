@@ -1,0 +1,6 @@
+{
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "github.copilot.enable": {
+        "haskell": true
+    }
+}
