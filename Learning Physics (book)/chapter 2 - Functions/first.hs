@@ -46,3 +46,17 @@ naturalPowerPlus8Power y = e**y + 8 ** y
 
 h :: Double -> Double
 h x = 1 / sqrt((x - 5)**2 + 16)
+
+gamma :: Double -> Double
+gamma beta
+  | abs beta >= 1 = error "Beta must be between -1 and 1 (exclusive)"
+  | otherwise = 1 / sqrt (1 - beta**2)
+
+u :: Double -> Double
+u x = (1 / (10 + x)) + (1 / (10 - x))
+
+bigL :: Double -> Double
+bigL l = sqrt (l * (l + 1))
+
+bigEX :: Double -> Double
+bigEX x =  1 / abs ( x ** 3)
