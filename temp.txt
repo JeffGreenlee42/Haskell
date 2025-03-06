@@ -1,0 +1,1 @@
+wget https://downloads.haskell.org/~ghcup/x86_64-apple-darwin-ghcup -O ghcup

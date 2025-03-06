@@ -1,0 +1,19 @@
+cradle:
+  multi:
+    - path: "./Learning Physics (book)/Chapter 3 - Types and entities"
+      config: { cradle: { stack: { component: "Haskell:exe:Haskell" } } }
+
+    - path: "./Udemy/FP_class_1"
+      config: { cradle: { stack: { component: "Haskell:exe:Haskell" } } }
+
+    - path: "./Udemy/Haskell_Class_2"
+      config: { cradle: { stack: { component: "Haskell:exe:Haskell" } } }
+
+    - path: "./book_Get_Programming_with_Haskell"
+      config: { cradle: { stack: { component: "Haskell:exe:Haskell" } } }
+
+    - path: "./helloworld"
+      config: { cradle: { stack: { component: "Haskell:exe:Haskell" } } }
+
+    - path: "."
+      config: { cradle: { stack: { component: "Haskell:exe:Haskell" } } }

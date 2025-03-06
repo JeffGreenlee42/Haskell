@@ -64,3 +64,4 @@ bigEX x =  1 / abs ( x ** 3)
 bagFreeMessage3 :: Bool -> String
 bagFreeMessage3 False = "There is no fee."
 bagFreeMessage3 True = "There is $100 fee
+

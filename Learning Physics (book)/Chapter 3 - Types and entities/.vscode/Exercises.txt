@@ -1,0 +1,10 @@
+1) a) False || True && False || True  
+    Bool 
+
+    b)  2 / 3 / 4 == 4 / 3 / 2
+
+    c)  7 - 5 / 4 > 6 || 2 ^ 5 - 1 == 31
+
+    d)  2 < 3 < 4  : this is not correctly formed.   you cannot compare a number to a bool value.
+
+    
