@@ -1,6 +1,12 @@
-Time :: Double
+type R = Double
 
-PositionFunction :: 
+type Time           = R
+type TimeInterval   = R
+type Position       = R
+type Velocity       = R
+
+type PositionFunction = Time -> Position
+type VelocityFunction = Time -> Velocity
 
 
 averageVelocity :: Time -> Time -> PositionFunction -> Velocity
